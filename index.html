@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <title>Supermarket</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-success text-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fab fa-react logo"></i> LOGO</a>
+          <a class="link" href="#home">Home</a>
+          <a class="link" href="#shop">Shop</a>
+          <a class="link" href="#products">Products</a>
+          <a class="link" href="#blogs">Blogs</a>
+          <a class="link" href="#contact">Contact</a>
+          <a class="link" href="#account"><i class="fas fa-user-circle"></i> Login/Sign up</a>
+        </div>        
+    </nav>
+   <ul class="nav nav-pills nav-fill m-5">
+        <li class="nav-item">
+          <a class="nav-link active p-3 bg-success" aria-current="page" href="#"><i class="fas fa-bars bar"></i> Shop By Department</a>
+        </li>
+        <li class="nav-item">
+            <form class="d-flex m-2">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+           </form>
+        </li>
+        <li class="nav-item symbol">
+            <button class="btn btn-outline-success"><i class="fas fa-heart"></i></button>
+            <button class="btn btn-outline-success"><i class="fas fa-shopping-cart"></i></button>
+        </li>
+    </ul>
+
+    <div id="carouselExampleCaptions" class="carousel slide my-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/woman-grocery-shopping-iStock-1141343601.jpg" class="d-block image" alt="...">
+            <div class="carousel-caption d-none d-md-block captions">
+                <h1>Vegetable 100% Organic</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                   labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                   nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="slider-btn">
+                    <button class="btn btn-1">Shop Now</button>
+                    <button class="btn btn-2">New Arrivals</button>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/borsa_ortaggi-4a2b0236.jpeg" class="d-block image" alt="...">
+            <div class="carousel-caption d-none d-md-block captions">
+                <h1>Fresh Vegetables Natural Farm</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                   labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                   nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="slider-btn">
+                    <button class="btn btn-3">Best Selling</button>
+                    <button class="btn btn-4">Order Now</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+      <div class="row my-5 py-5 text-center">
+        <div class="col">
+          <div class="card" style="width: 18rem; height: 15rem;">
+            <div class="card-body m-4">
+              <h5 class="card-title mb-4"><i class="fas fa-plane sticker"></i></h5>
+              <h6 class="card-subtitle mb-3">FREE SHIPPING</h6>
+              <p class="card-text">Free shipping on all US order or order above $200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; height: 15rem;">
+            <div class="card-body m-4">
+              <h5 class="card-title mb-4"><i class="far fa-life-ring sticker"></i></h5>
+              <h6 class="card-subtitle mb-3">SUPPORT 24/7</h6>
+              <p class="card-text">Contact us 24 hours a day, 7 days a week</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;  height: 15rem;">
+            <div class="card-body m-4">
+              <h5 class="card-title mb-4"><i class="fas fa-exchange-alt sticker"></i></h5>
+              <h6 class="card-subtitle mb-3">30 DAYS RETURN</h6>
+              <p class="card-text">Simply return it within 30 days for an exchange</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;  height: 15rem;">
+            <div class="card-body m-4">
+              <h5 class="card-title mb-4"><i class="fab fa-cc-paypal sticker"></i></h5>
+              <h6 class="card-subtitle mb-3">SECURE PAYMENT</h6>
+              <p class="card-text">100% Secure Payment . We ensure secure payment with PEV</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container category">
+      <h1>Shop By <span style="color:rgb(31, 99, 31);">Category.....</span></h1>
+      <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s,<br>
+        when an unknownshil printer took a galley of type and scrambled it to make a type</p>
+      <div class="row my-2 py-5 text-center">
+        <div class="col">
+          <div class="card text-center bg-dark text-white" style="width: 25rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Last updated 3 mins ago</p>
+              <a href="#" class="btn btn-success">Shop</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center bg-dark text-white" style="width: 25rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Last updated 3 mins ago</p>
+              <a href="#" class="btn btn-success">Shop</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center bg-dark text-white" style="width: 25rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Last updated 3 mins ago</p>
+              <a href="#" class="btn btn-success">Shop</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container arrivals">
+      <h1 style="font-size: 60px;">New <span style="color:rgb(31, 99, 31);">Arrivals.....</span></h1>
+      <p>We’ve recently updated our entire product<br>
+        when an unknownshil printer took a galley of type and scrambled it to make a type</p>
+      <button type="button" class="btn btn-outline-success m-3">Fruits</button>
+      <button type="button" class="btn btn-outline-success m-3">Vegetables</button>
+      <button type="button" class="btn btn-outline-success m-3">Bakery</button>
+      <button type="button" class="btn btn-outline-success m-3">SeaFood</button>
+      <button type="button" class="btn btn-outline-success m-3">Organic</button>
+
+
+
+    </div>
+
+    <div class="card bg-dark text-white my-5">
+      <img src="image/Crunchy-Fibre-Rich-Fruits-And-Vegetables-Help-To-Prevent-Bad-Breath-1024x683.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Sale 50% OFF</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo
+          , elementum in malesuada an darius ut augue.Cras sit amet lectuset justo
+          feugiat euismod sed non erat. Nulla non felis id metus bibendum iaculis</p>
+        <a href="#" class="btn btn-success">Shop</a>
+      </div>
+    </div>
+    
+    
+
+    <div class="container my-5 py-5 text-center ourblogs">
+      <h1 style="font-size: 60px;">From Our <span style="color:rgb(31, 99, 31);">Blogs.....</span></h1>
+      <div class="row row-cols-2 row-cols-lg-3 m-5">
+        <div class="col">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <img src="image/Veggies_745x510_feumcu.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-5" style="width:100%; ">
+        <footer>
+          <h6 style="max-height: 5px;">Copyright © 2020 Grocery Store Demo All Right Reserved</h6>
+          <i class="fab fa-cc-paypal icons"></i>
+          <i class="fab fa-cc-mastercard icons"></i>
+          <i class="fab fa-cc-visa icons"></i>
+          <i class="fab fa-cc-amex icons"></i>
+          <i class="fab fa-cc-discover icons"></i>
+          <i class="fab fa-cc-amazon-pay icons"></i>
+        </footer>
+       
+
+    
+
+      
+  
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+    <script src="https://kit.fontawesome.com/e5f089e9ac.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
